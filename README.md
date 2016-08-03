@@ -1,2 +1,6 @@
-# themostat
-ESP8266 with Micropython Thermostat (Using mqtt, a dht22 sensor and oled 128x64 screen)
+uPython-ESP8266-Thermostat
+==========================
+
+I present the data received from a DHT22 (Temperature-Humidity Sensor) connected to a ESP12 Nodemcu in a OLED 128x64 Screen via I2C (SSD1306) and also send the data to a Mosquitto (MQTT) Server in a Linux machine that is running OpenHab. I can send ON/OFF commands via MQTT from the OpenHab to start/stop the Boiler (in the prototype is just a led that I turn on/off).
+
+You can see all the details of the project here: https://hackaday.io/project/12979-thermostat-with-esp8266-mqtt-openhab-micropython
