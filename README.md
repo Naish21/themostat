@@ -5,14 +5,8 @@ I present the data received from a DHT22 (Temperature-Humidity Sensor) connected
 
 You can see all the details of the project here: https://hackaday.io/project/12979-thermostat-with-esp8266-mqtt-openhab-micropython
 
- ssd1306.py
- ==========
- Library for the oled 128x64 screen. It's been trimmed to include only I2C functions. Original from: https://github.com/micropython/micropython/blob/master/drivers/display/ssd1306.py
+ ssd1306.py -> Library for the oled 128x64 screen. It's been trimmed to include only I2C functions. Original from: https://github.com/micropython/micropython/blob/master/drivers/display/ssd1306.py
 
- umqtt.py
- ========
- MQTT library for ESP8266. Original from: https://github.com/micropython/micropython-lib/tree/master/umqtt.simple
+ umqtt.py -> MQTT library for ESP8266. Original from: https://github.com/micropython/micropython-lib/tree/master/umqtt.simple
 
-  main.py
-  =======
-  Main program, all the functionality here.
+  main.py -> Main program, all the functionality here.
